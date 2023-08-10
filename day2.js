@@ -98,6 +98,26 @@ function getvowelsCount(value){
 
 getvowelsCount('rajae');
 
+// Assesment 9
+
+function fibonacci(number){
+        
+    let num1 = 0;
+    let num2 = 1;
+    let num3 = 0;
+    
+    while(number > num3){
+        num3 = num1 + num2;
+        num1 = num2;
+        num2 = num3; 
+        console.log(num3);
+    }
+    
+    
+}
+
+fibonacci(5);
+
 
 // Assesment 10
 function getMultiplicationTable(number){
